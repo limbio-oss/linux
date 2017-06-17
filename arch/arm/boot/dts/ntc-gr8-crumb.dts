@@ -145,7 +145,7 @@
   spi2_0 {
     #address-cells = <1>;
     #size-cells = <0>;
-    compatible = "microchip,enc28j60";
+    compatible = "wiznet,w5500", "wiznet,w5100;
     reg = <0>;
     spi-max-frequency = <12000000>;
     interrupt-parent = <&pio>;
